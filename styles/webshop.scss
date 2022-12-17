@@ -1,0 +1,10 @@
+.card-webshop {
+  &__orange_price {
+    background-color: $color-background-orange;
+  }
+
+  &__button_orange {
+    background-color: $color-background-orange;
+    border: $color-background-orange;
+  }
+}

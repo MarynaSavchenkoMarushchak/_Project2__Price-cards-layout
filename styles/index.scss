@@ -1,0 +1,19 @@
+@import 'variables.scss';
+@import 'commons.scss';
+@import 'basic.scss';
+@import 'business.scss';
+@import 'webshop.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  color: $color-page-text;
+}
+
+.page {
+  height: 100vh;
+  background-color: $color-page-backgraund;
+}

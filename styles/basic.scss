@@ -1,0 +1,13 @@
+.card-basic {
+  position: relative;
+  overflow: hidden;
+
+  &__green_price {
+    background-color: $color-background-green;
+  }
+
+  &__green-button {
+    background-color: $color-background-green;
+    border: solid $color-background-green;
+  }
+}

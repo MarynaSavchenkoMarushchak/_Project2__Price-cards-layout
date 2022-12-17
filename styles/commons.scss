@@ -1,0 +1,117 @@
+.top-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 1176px;
+  height: 770px;
+}
+
+.price-card {
+  margin-left: 18px;
+  width: 380px;
+  height: 770px;
+  background-color: $color-background-dark;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &_popular {
+    position: relative;
+    width: 147px;
+    height: 25px;
+    background-color: $color-background-red;
+    transform: rotate(45deg);
+    top: 30px;
+    left: 270px;
+    right: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+  }
+
+  &__title {
+    margin-top: 33px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+  }
+
+  &__subtitle {
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  &__price {
+    display: flex;
+    margin-top: 33px;
+    width: 380px;
+    height: 105px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 55px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__descriptions {
+    margin: 40px 26px 0 26px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    font-style: normal;
+  }
+
+  &__options-list {
+    margin: 0;
+    margin-top: 40px;
+    padding: 0;
+    list-style-type: none;
+
+    &_text {
+      width: 380px;
+      height: 50px;
+      padding: 16px 0 19px 22px;
+      background-position: 0 0;
+      background-size: 15px 13px;
+      background-repeat: no-repeat;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 18px;
+
+      &:nth-child(odd) {
+        background-color: $color-background-list;
+      }
+    }
+
+    &_icon {
+      margin-right: 22px;
+    }
+  }
+
+  .button {
+    margin: 39px 0 40px 112px;
+    padding: 0;
+    width: 155px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: $color-page-text;
+  }
+}

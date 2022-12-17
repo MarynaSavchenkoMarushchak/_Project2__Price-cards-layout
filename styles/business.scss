@@ -1,0 +1,17 @@
+.card-business {
+  position: relative;
+  overflow: hidden;
+
+  &__title {
+    margin-top: 8px;
+  }
+
+  &__blue_price {
+    background-color: $color-background-blue;
+  }
+
+  &__button-blue {
+    background-color: $color-background-blue;
+    border: solid $color-background-blue;
+  }
+}
